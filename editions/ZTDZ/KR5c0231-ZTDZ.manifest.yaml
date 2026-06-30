@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0231/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0231/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 存神鍊氣銘
+  date: '2015-08-29 00:54:46.306716'
+  source:
+    repository: kanripo
+    path: KR5c0231
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0231_000-ZTDZ.yaml, hash: 'sha256:daa76aa5f6c134ac5cc17c82fd570af83fcedf625224e55e535d6896abfda3f0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0231_000-ZTDZ.markers.yaml, hash: 'sha256:fdc27693d626e6aec8eb25144a5503340c55f2b8ad7d3a774b001501b45743a7'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0231_SJB_000-180458b
+    span:
+    - body
+    - 0
+    - 783
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e18346d8156f66b16118b2a1bc9a466833a5db5ae73e7a86ef9764556f47f5b4
